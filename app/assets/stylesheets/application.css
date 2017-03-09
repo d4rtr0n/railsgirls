@@ -14,7 +14,20 @@
  *= require_self
  */
 
- body { padding-top: 100px; }
- footer { margin-top: 100px; }
- table, td, th { vertical-align: middle; border: none; }
- th { border-bottom: 1px solid #DDD; }
+ body {
+   padding-top: 100px;
+ }
+
+ footer {
+   margin-top: 100px;
+ }
+
+ table, td, th {
+   padding: 4px;
+   vertical-align: middle;
+   border: 2px solid black;
+ }
+
+ .action {
+   border: 2px dotted black;
+ }
